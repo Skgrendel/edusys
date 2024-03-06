@@ -10,7 +10,7 @@
 
 @section('content')
     <div class="row justify-content-center">
-        <div class="card" style="width: 40rem;">
+        <div class="card" style="width: 100%;">
             <div class="card-header text-center  "><label>Rol Seleccionado:</label> {{ $role->name }}</div>
             <div class="card-body">
                 <h5 class="text-center mb-2 "><label >Lista de Permisos Asignados</label> </h5>
@@ -20,7 +20,7 @@
                         <tr>
                             <th >ID</th>
                             <th>Nombre permiso</th>
-                            <th>acciones</th>
+                            <th>Asignar</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -32,7 +32,8 @@
                                 <td>
                                     {{ $permiso->description }}
                                 </td>
-                                <td>
+
+                                <td style="width: 10px;">
                                     {!! Form::checkbox('permisos[]', $permiso->id, $role->hasPermissionTo($permiso->id) ?: false, [
                                         'class' => 'mr-1',
                                     ]) !!}

@@ -167,5 +167,113 @@ class PermissionsTableSeeder extends Seeder
             'guard_name' => 'web',
             'estado' => 1,
         ]);
+        Permission::create([
+            'name' => 'profesor.notas.index',
+            'description' => 'Ver Notas Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.notas.create',
+            'description' => 'crear Notas Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.notas.store',
+            'description' => 'guardar Notas Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.notas.edit',
+            'description' => 'editar Notas Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.notas.update',
+            'description' => 'actualizar Notas Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.notas.destroy',
+            'description' => 'eliminar Notas Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.citas.index',
+            'description' => 'Ver Citas Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.citas.create',
+            'description' => 'crear citas Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.citas.store',
+            'description' => 'guardar citas Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.citas.edit',
+            'description' => 'editar citas Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.citas.update',
+            'description' => 'actualizar citas Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.citas.destroy',
+            'description' => 'eliminar citas Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.asistencia.index',
+            'description' => 'Ver asistencia Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.asistencia.create',
+            'description' => 'crear asistencia Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.asistencia.store',
+            'description' => 'guardar asistencia Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.asistencia.edit',
+            'description' => 'editar asistencia Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.asistencia.update',
+            'description' => 'actualizar asistencia Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
+        Permission::create([
+            'name' => 'profesor.asistencia.destroy',
+            'description' => 'eliminar asistencia Profesores',
+            'guard_name' => 'web',
+            'estado' => 1,
+        ]);
     }
 }

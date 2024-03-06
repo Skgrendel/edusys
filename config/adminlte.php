@@ -352,27 +352,6 @@ return [
                 ],
             ],
         ],
-        ['header' => 'Profesores','can'=>'admin.asignaturas.index'],
-        [
-            'text' => 'listados',
-            'icon' => 'fas fa-cogs',
-            'can' => 'admin.asignaturas.index',
-            'submenu' => [
-                [
-                    'text' => 'Asistencias',
-                    'icon'    => 'fas fa-cog',
-                    'route'  => 'roles.index',
-
-                ],
-                [
-                    'text'    => 'inasistencias',
-                    'icon'    => 'fas fa-cog',
-                    'route'     => 'permisos.index',
-
-                ],
-            ],
-        ],
-
         ['header' => 'account_settings','can'=>'admin.rol.index'],
         [
             'text' => 'Configuraciones',
@@ -383,12 +362,6 @@ return [
                     'text' => 'Roles',
                     'icon'    => 'fas fa-cog',
                     'route'  => 'roles.index',
-
-                ],
-                [
-                    'text'    => 'Permisos',
-                    'icon'    => 'fas fa-cog',
-                    'route'     => 'permisos.index',
 
                 ],
             ],

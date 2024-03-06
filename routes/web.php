@@ -38,12 +38,11 @@ Route::middleware('auth')->group(function () {
 // Rutas de Control e Ingresos del sistema
 Route::middleware('auth')->group(function () {
     Route::resource('/roles', RoleController::class);
-    Route::resource('/permisos', PermisoController::class);
     Route::resource('/usuarios', UserController::class);
     Route::resource('/personal', PersonalController::class);
     Route::resource('/cursos', CursoController::class);
     Route::resource('/asignaturas', AsignaturasController::class);
-   
+
 });
 
 //Rutas de Configuracion de Perfil
